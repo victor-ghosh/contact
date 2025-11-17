@@ -1,1 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .card {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: center;
+      width: 320px;
+    }
+    h1 {
+      margin-bottom: 1rem;
+    }
+    .links a {
+      display: block;
+      margin: 0.5rem 0;
+      padding: 0.75rem;
+      border-radius: 12px;
+      text-decoration: none;
+      background: #eaeaea;
+      color: #000;
+      transition: background 0.2s;
+    }
+    .links a:hover {
+      background: #dcdcdc;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Dr. Victor Ghosh</h1>
+    <h3>Biodesign Fellow, SIB, AIIMS New Delhi</h3>
+    <p>Connect with me:</p>
+    <div class="links">
+      <a href="https://wa.me/qr/GJASALEG5LDBK1" target="_blank">WhatsApp</a>
+      <a href="http://www.linkedin.com/in/dr-victor-ghosh" target="_blank">LinkedIn</a>
+      <a href="https://scholar.google.com/citations?user=n6SPwNkAAAAJ&hl=en" target="_blank">Google Scholar</a>
+      <a href="drvictorghosh.sib@gmail.com">Email</a>
+    </div>
+  </div>
+</body>
+</html>
 
